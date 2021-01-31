@@ -1,0 +1,6 @@
+framework module HYLearningNetwork {
+  umbrella header "HYLearningNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

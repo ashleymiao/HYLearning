@@ -1,0 +1,16 @@
+PODS:
+  - HYLearningNetwork (0.1.1)
+
+DEPENDENCIES:
+  - HYLearningNetwork
+
+SPEC REPOS:
+  https://github.com/ashleymiao/HYSpecs.git:
+    - HYLearningNetwork
+
+SPEC CHECKSUMS:
+  HYLearningNetwork: b0e98cc367f0c51c8b48898a7905f81c844ed004
+
+PODFILE CHECKSUM: 04519ca29067c12d513370378f32719133f8c6b8
+
+COCOAPODS: 1.9.3
