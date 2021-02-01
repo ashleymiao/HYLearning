@@ -6,7 +6,12 @@
 //
 
 #import "HYNTNetworkingManager.h"
+@import AFNetworking;
+
 
 @implementation HYNTNetworkingManager
 
++ (void)sendRequest {
+    AFURLSessionManager *manager = [[AFURLSessionManager alloc] init];
+}
 @end

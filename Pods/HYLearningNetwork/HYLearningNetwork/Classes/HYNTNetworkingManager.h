@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HYNTNetworkingManager : NSObject
-
++ (void)sendRequest;
 @end
 
 NS_ASSUME_NONNULL_END
