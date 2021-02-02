@@ -16,6 +16,8 @@
 		19EE34DA25C6E974004871B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EE34D925C6E974004871B6 /* main.m */; };
 		19EE34E425C6E974004871B6 /* HYLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EE34E325C6E974004871B6 /* HYLearningTests.m */; };
 		19EE34EF25C6E974004871B6 /* HYLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EE34EE25C6E974004871B6 /* HYLearningUITests.m */; };
+		19EE354125C80AA6004871B6 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 19EE354025C80AA6004871B6 /* demo.js */; };
+		19EE355625C941A7004871B6 /* HYLearningSwiftManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE355525C941A7004871B6 /* HYLearningSwiftManager.swift */; };
 		7B2D6B391873567AF7D38E40 /* Pods_HYLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0DAAB1843AA5D075955BC5 /* Pods_HYLearning.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,9 @@
 		19EE34EA25C6E974004871B6 /* HYLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19EE34EE25C6E974004871B6 /* HYLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLearningUITests.m; sourceTree = "<group>"; };
 		19EE34F025C6E974004871B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EE354025C80AA6004871B6 /* demo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		19EE355425C941A6004871B6 /* HYLearning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HYLearning-Bridging-Header.h"; sourceTree = "<group>"; };
+		19EE355525C941A7004871B6 /* HYLearningSwiftManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYLearningSwiftManager.swift; sourceTree = "<group>"; };
 		4A0DAAB1843AA5D075955BC5 /* Pods_HYLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F33FF9123CD3524DE1C2F41 /* Pods-HYLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYLearning.release.xcconfig"; path = "Target Support Files/Pods-HYLearning/Pods-HYLearning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +116,7 @@
 		19EE34C625C6E972004871B6 /* HYLearning */ = {
 			isa = PBXGroup;
 			children = (
+				19EE353F25C80A70004871B6 /* JSModule */,
 				19EE34C725C6E972004871B6 /* AppDelegate.h */,
 				19EE34C825C6E972004871B6 /* AppDelegate.m */,
 				19EE34CA25C6E972004871B6 /* SceneDelegate.h */,
@@ -122,6 +128,8 @@
 				19EE34D525C6E974004871B6 /* LaunchScreen.storyboard */,
 				19EE34D825C6E974004871B6 /* Info.plist */,
 				19EE34D925C6E974004871B6 /* main.m */,
+				19EE355525C941A7004871B6 /* HYLearningSwiftManager.swift */,
+				19EE355425C941A6004871B6 /* HYLearning-Bridging-Header.h */,
 			);
 			path = HYLearning;
 			sourceTree = "<group>";
@@ -142,6 +150,14 @@
 				19EE34F025C6E974004871B6 /* Info.plist */,
 			);
 			path = HYLearningUITests;
+			sourceTree = "<group>";
+		};
+		19EE353F25C80A70004871B6 /* JSModule */ = {
+			isa = PBXGroup;
+			children = (
+				19EE354025C80AA6004871B6 /* demo.js */,
+			);
+			path = JSModule;
 			sourceTree = "<group>";
 		};
 		C1DEEBEC24FF703D519FAB3D /* Frameworks */ = {
@@ -229,6 +245,7 @@
 				TargetAttributes = {
 					19EE34C325C6E972004871B6 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					19EE34DE25C6E974004871B6 = {
 						CreatedOnToolsVersion = 12.4;
@@ -268,6 +285,7 @@
 				19EE34D725C6E974004871B6 /* LaunchScreen.storyboard in Resources */,
 				19EE34D425C6E974004871B6 /* Assets.xcassets in Resources */,
 				19EE34D225C6E972004871B6 /* Main.storyboard in Resources */,
+				19EE354125C80AA6004871B6 /* demo.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +356,7 @@
 				19EE34C925C6E972004871B6 /* AppDelegate.m in Sources */,
 				19EE34DA25C6E974004871B6 /* main.m in Sources */,
 				19EE34CC25C6E972004871B6 /* SceneDelegate.m in Sources */,
+				19EE355625C941A7004871B6 /* HYLearningSwiftManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW2KRVQHL3;
 				INFOPLIST_FILE = HYLearning/Info.plist;
@@ -520,6 +540,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HYLearning/HYLearning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -530,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW2KRVQHL3;
 				INFOPLIST_FILE = HYLearning/Info.plist;
@@ -540,6 +564,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiyan.cc.HYLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HYLearning/HYLearning-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -547,6 +573,7 @@
 		19EE34F725C6E974004871B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW2KRVQHL3;
@@ -567,6 +594,7 @@
 		19EE34F825C6E974004871B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW2KRVQHL3;
@@ -587,6 +615,7 @@
 		19EE34FA25C6E974004871B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW2KRVQHL3;
 				INFOPLIST_FILE = HYLearningUITests/Info.plist;
@@ -605,6 +634,7 @@
 		19EE34FB25C6E974004871B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW2KRVQHL3;
 				INFOPLIST_FILE = HYLearningUITests/Info.plist;

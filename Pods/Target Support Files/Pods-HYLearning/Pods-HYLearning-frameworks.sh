@@ -199,10 +199,14 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYLearningNetwork/HYLearningNetwork.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYLearningSwift/HYLearningSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JSPatch/JSPatch.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYLearningNetwork/HYLearningNetwork.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYLearningSwift/HYLearningSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JSPatch/JSPatch.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

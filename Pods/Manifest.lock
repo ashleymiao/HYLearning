@@ -16,20 +16,30 @@ PODS:
     - AFNetworking/NSURLSession
   - HYLearningNetwork (0.1.3):
     - AFNetworking
+  - HYLearningSwift (0.1.2)
+  - JSPatch (1.1.3):
+    - JSPatch/Core (= 1.1.3)
+  - JSPatch/Core (1.1.3)
 
 DEPENDENCIES:
   - HYLearningNetwork
+  - HYLearningSwift
+  - JSPatch
 
 SPEC REPOS:
   https://github.com/ashleymiao/HYSpecs.git:
     - HYLearningNetwork
+    - HYLearningSwift
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - JSPatch
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   HYLearningNetwork: 1b308600e71491f8c2756efec40402dcd5d4726e
+  HYLearningSwift: 95a886d42af91cd98be036bfb6317b45443f3256
+  JSPatch: 02cfed591cb907bbfe80a346666e5a35fc2d349d
 
-PODFILE CHECKSUM: bd465b45bb9708b90be42094ab6705e58cf58b05
+PODFILE CHECKSUM: 4fd92e6e41ba85e63576e2892b241caf58b908e8
 
 COCOAPODS: 1.9.3

@@ -4,7 +4,11 @@ source 'https://github.com/ashleymiao/HYSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 platform :ios, '9.0'
+
 target 'HYLearning' do
+  
 pod 'HYLearningNetwork'
+pod 'JSPatch'
+pod 'HYLearningSwift'
 
 end
