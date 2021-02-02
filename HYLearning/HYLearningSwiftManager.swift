@@ -6,7 +6,12 @@
 //
 
 import UIKit
+import HYLearningSwift
 
 class HYLearningSwiftManager: NSObject {
 
+    func testFunc() {
+        let pro = HYSProtocol()
+        let manger = HYOCManager()
+    }
 }
